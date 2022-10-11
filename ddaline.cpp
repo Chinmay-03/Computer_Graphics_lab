@@ -31,7 +31,7 @@ int main()
 	}
 	
 	DX = (x2-x1)/length;
-	DY = (y2-y1)/length;;
+	DY = (y2-y1)/length;
 	x = x1 + 0.5;
 	y = y1 + 0.5;
 	i = 1;
@@ -45,7 +45,7 @@ int main()
 	}
 	delay(10000);
 	closegraph();
-	return 0;
+	return 0; 
 	
 	
 }
